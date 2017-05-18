@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "AMQP (RabbitMQ) URI",
    "author" : [
       "Jan Seidl <seidl@avast.com>"
    ],
@@ -52,7 +52,18 @@
       }
    },
    "release_status" : "unstable",
-   "version" : "0.01",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/avast/URI-amqp/issues"
+      },
+      "homepage" : "https://github.com/avast/URI-amqp",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/avast/URI-amqp.git",
+         "web" : "https://github.com/avast/URI-amqp"
+      }
+   },
+   "version" : "0.1.0",
    "x_authority" : "cpan:JASEI",
    "x_serialization_backend" : "JSON::PP version 2.27400"
 }
