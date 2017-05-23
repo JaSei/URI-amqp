@@ -2,7 +2,7 @@ package URI::amqp;
 use strict;
 use warnings;
 
-our $VERSION = '0.1.0';
+our $VERSION = '0.1.1';
 
 use URI::QueryParam;
 use URI::Escape qw(uri_unescape);
@@ -28,6 +28,7 @@ URI::amqp - AMQP (RabbitMQ) URI
         heartbeat => scalar $uri->query_param('heartbeat'),
         ...
     );
+
 =head1 DESCRIPTION
 
 URI extension for AMQP protocol (L<https://www.rabbitmq.com/uri-spec.html>)

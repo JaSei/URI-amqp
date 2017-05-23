@@ -16,7 +16,8 @@ URI::amqp - AMQP (RabbitMQ) URI
         heartbeat => scalar $uri->query_param('heartbeat'),
         ...
     );
-=head1 DESCRIPTION
+
+# DESCRIPTION
 
 URI extension for AMQP protocol ([https://www.rabbitmq.com/uri-spec.html](https://www.rabbitmq.com/uri-spec.html))
 
