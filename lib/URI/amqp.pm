@@ -40,7 +40,7 @@ vhost is path part of URI
 
 slash C</> on start is removed (this is different with C<path> method)
 
-return C<undef> if vhost not defined
+return C<undef> if vhost not defined (should be used default of module which use this URI module)
 
 =cut
 
@@ -135,7 +135,7 @@ sub as_anyevent_rabbitmq {
 
 =head1 LIMITATIONS
 
-module don't support correct C<canonpath> (reverse) method (yet)
+module doesn't support correct C<canonpath> (reverse) method (yet)
 
 =head1 LICENSE
 
