@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/avast/URI-amqp.svg?branch=master)](https://travis-ci.org/avast/URI-amqp)
 # NAME
 
 URI::amqp - AMQP (RabbitMQ) URI
@@ -27,7 +28,7 @@ vhost is path part of URI
 
 slash `/` on start is removed (this is different with `path` method)
 
-return `undef` if vhost not defined
+return `undef` if vhost not defined (should be used default of module which use this URI module)
 
 ## query\_param
 
@@ -65,7 +66,7 @@ return options which works with [AnyEvent::RabbitMQ](https://metacpan.org/pod/An
 
 # LIMITATIONS
 
-module don't support correct `canonpath` (reverse) method (yet)
+module doesn't support correct `canonpath` (reverse) method (yet)
 
 # LICENSE
 

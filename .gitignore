@@ -29,3 +29,5 @@ cover_db/
 MYMETA.*
 
 /URI-amqp-*
+.carmel/MySetup.pm
+cpanfile.snapshot

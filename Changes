@@ -2,5 +2,7 @@ Revision history for Perl extension URI-amqp
 
 {{$NEXT}}
 
+0.1.0 2017-05-23T08:03:25Z
+
     - original version
 
