@@ -42,6 +42,7 @@
       },
       "runtime" : {
          "requires" : {
+            "URI" : "0",
             "perl" : "5.008001"
          }
       },
@@ -63,7 +64,7 @@
          "web" : "https://github.com/avast/URI-amqp"
       }
    },
-   "version" : "0.1.1",
+   "version" : "0.1.2",
    "x_authority" : "cpan:JASEI",
    "x_contributors" : [
       "Jan Seidl <janseidl@volny.cz>"

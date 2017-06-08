@@ -2,7 +2,7 @@ package URI::amqp;
 use strict;
 use warnings;
 
-our $VERSION = '0.1.1';
+our $VERSION = '0.1.2';
 
 use URI::QueryParam;
 use URI::Escape qw(uri_unescape);
